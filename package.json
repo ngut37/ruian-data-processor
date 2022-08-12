@@ -1,0 +1,22 @@
+{
+  "name": "ruian-data-processor",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ngut37/ruian-data-processor.git",
+  "author": "Denny Nguyen <55693964+ngut37@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fast-xml-parser": "^4.0.9",
+    "jszip": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jszip": "^3.4.1",
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+  }
+}
